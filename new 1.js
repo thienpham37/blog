@@ -1,15 +1,6 @@
 // ---------------------------------------------------
-// BLOGTOC
-// ---------------------------------------------------
-// BlogToc creates a clickable Table Of Contents for
-// Blogger Blogs.
-// It uses the JSON post feed, and create a ToC of it.
-// The ToC can be sorted by title or by date, both
-// ascending and descending, and can be filtered by
-// label.
-// ---------------------------------------------------
-// Author: Tai lieu mien phi
-// Url: https://vitaseo.com/
+// Author: Du Lịch Club
+// Url: https://dulichclub.com/
 // Version: 2
 // Date: 20018-04-12
 // ---------------------------------------------------
@@ -179,11 +170,11 @@ function displayToc(filter) {
 // this function creates a three-column table and adds it to the screen
    var numDisplayed = 0;
    var tocTable = '';
-   var tocHead1 = 'POST TITLE';
+   var tocHead1 = 'TIÊU ĐỀ';
    var tocTool1 = 'Click to sort by title';
-   var tocHead2 = 'POST DATE';
+   var tocHead2 = 'NGÀY ĐĂNG';
    var tocTool2 = 'Click to sort by date';
-   var tocHead3 = 'LABELS';
+   var tocHead3 = 'DANH MỤC';
    var tocTool3 = '';
    if (sortBy == "titleasc") { 
       tocTool1 += ' (descending)';
