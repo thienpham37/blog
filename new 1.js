@@ -250,7 +250,7 @@ function showToc() {
      var toclink = document.getElementById("toclink");
    
   }
-  else { alert("Just wait... TOC is loading"); }
+  else { alert(" Vui lòng chờ... Đang tải"); }
 }
 
 function hideToc() {
